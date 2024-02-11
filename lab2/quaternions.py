@@ -55,6 +55,8 @@ def get_quaternion(input_text):
             print("Invalid Input type!")
             print(e)
             sys.exit(1)
+    elif q==-1:
+        return 0
     else:
         print("Input should be 4 space separated numbers that adds up to 1.")
         sys.exit(1)

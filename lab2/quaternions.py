@@ -40,7 +40,7 @@ def quaternion_multiply(q0, q1):
 
 def quaternion_inverse(q):
     "Gets a quarternion and returns its inverse."
-    return q[0:3]+[(-1)*q[3]]
+    return [(-1)*q[0]]+q[1:4]
 
 
 def get_quaternion(input_text):
@@ -48,15 +48,13 @@ def get_quaternion(input_text):
     q = q.split()
     if len(q) ==4:
         try:
-            q = [float(number) for number in q] #Normalization happens in the next line
-            # q = [number/(q[0]**2+q[1]**2+q[2]**2+q[3]**2) for number in q]
+            q = [float(number) for number in q] 
+            # q = [number/(q[0]**2+q[1]**2+q[2]**2+q[3]**2) for number in q]   # Uncomment this line to Enable normalized inputs.
             return q
         except Exception as e:
             print("Invalid Input type!")
             print(e)
             sys.exit(1)
-        else:
-            print("Entered elements does not add up to 1 for qualify for an quanternion!")
     else:
         print("Input should be 4 space separated numbers that adds up to 1.")
         sys.exit(1)
@@ -68,7 +66,7 @@ while True:
         print("Ending the program.")
         sys.exit(0)
     q2 = get_quaternion("Enter the q2 : ")
-    print(quaternion_multiply(q2,quaternion_inverse(q1)))
+    print(f"q_r: {quaternion_multiply(q2,quaternion_inverse(q1))}")
 
 
             

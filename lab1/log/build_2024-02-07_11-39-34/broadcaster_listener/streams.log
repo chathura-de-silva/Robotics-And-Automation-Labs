@@ -1,0 +1,30 @@
+[0.503s] Invoking command in '/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/src/broadcaster_listener': PYTHONPATH=/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/prefix_override:/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/broadcaster_listener build --build-base /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/build install --record /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/install.log --single-version-externally-managed
+[0.679s] running egg_info
+[0.679s] writing ../../build/broadcaster_listener/broadcaster_listener.egg-info/PKG-INFO
+[0.680s] writing dependency_links to ../../build/broadcaster_listener/broadcaster_listener.egg-info/dependency_links.txt
+[0.680s] writing entry points to ../../build/broadcaster_listener/broadcaster_listener.egg-info/entry_points.txt
+[0.680s] writing requirements to ../../build/broadcaster_listener/broadcaster_listener.egg-info/requires.txt
+[0.680s] writing top-level names to ../../build/broadcaster_listener/broadcaster_listener.egg-info/top_level.txt
+[0.681s] reading manifest file '../../build/broadcaster_listener/broadcaster_listener.egg-info/SOURCES.txt'
+[0.681s] adding license file 'LICENSE'
+[0.682s] writing manifest file '../../build/broadcaster_listener/broadcaster_listener.egg-info/SOURCES.txt'
+[0.682s] running build
+[0.682s] running build_py
+[0.682s] copying broadcaster_listener/dynamic_frame_tf2_broadcaster.py -> /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/build/lib/broadcaster_listener
+[0.683s] running install
+[0.683s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.683s]   warnings.warn(
+[0.683s] running install_lib
+[0.683s] copying /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/build/lib/broadcaster_listener/dynamic_frame_tf2_broadcaster.py -> /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/python3.10/site-packages/broadcaster_listener
+[0.684s] byte-compiling /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/python3.10/site-packages/broadcaster_listener/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+[0.684s] running install_data
+[0.685s] running install_egg_info
+[0.686s] removing '/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/python3.10/site-packages/broadcaster_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[0.687s] Copying ../../build/broadcaster_listener/broadcaster_listener.egg-info to /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/python3.10/site-packages/broadcaster_listener-0.0.0-py3.10.egg-info
+[0.687s] running install_scripts
+[0.702s] Installing dynamic_frame_tf2_broadcaster script to /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/broadcaster_listener
+[0.702s] Installing fixed_frame_tf2_broadcaster script to /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/broadcaster_listener
+[0.702s] Installing turtle_tf2_broadcaster script to /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/broadcaster_listener
+[0.702s] Installing turtle_tf2_listener script to /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/broadcaster_listener
+[0.702s] writing list of installed files to '/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/install.log'
+[0.718s] Invoked command in '/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/src/broadcaster_listener' returned '0': PYTHONPATH=/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/prefix_override:/home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/install/broadcaster_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/broadcaster_listener build --build-base /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/build install --record /home/chathura/Documents/Git Projects/Robotics-and-Automation-Labs/lab1/build/broadcaster_listener/install.log --single-version-externally-managed

@@ -40,6 +40,7 @@ def quaternion_multiply(q0, q1):
 
 def quaternion_inverse(q):
     "Gets a quarternion and returns its inverse."
+    q = [number/(q[0]**2+q[1]**2+q[2]**2+q[3]**2) for number in q]   # q inverse = qs' conjugate * {1/(qs' magnitude)}. This lines makes q magnitude 1 so next step is only to get the conjugate.
     return [(-1)*q[0]]+q[1:4]
 
 
@@ -49,7 +50,6 @@ def get_quaternion(input_text):
     if len(q) ==4:
         try:
             q = [float(number) for number in q] 
-            # q = [number/(q[0]**2+q[1]**2+q[2]**2+q[3]**2) for number in q]   # Uncomment this line to Enable normalized inputs.
             return q
         except Exception as e:
             print("Invalid Input type!")

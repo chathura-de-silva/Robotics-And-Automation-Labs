@@ -1,0 +1,11 @@
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/uninstall.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/moveit_setup_core_plugins_uninstall.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/moveit_setup_core_plugins.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/test.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/edit_cache.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/rebuild_cache.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/list_install_components.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/install.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/install/local.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/install/strip.dir
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_setup_core_plugins/CMakeFiles/moveit_setup_core_plugins_autogen.dir

@@ -1,0 +1,96 @@
+[0.100s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.210s] -- The CXX compiler identification is GNU 11.4.0
+[0.221s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.292s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.292s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.297s] -- Detecting CXX compiler ABI info
+[0.372s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.380s] -- Found moveit_common: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common/share/moveit_common/cmake)
+[0.388s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.755s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.764s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.764s] -- BACKWARD_HAS_UNWIND=1
+[0.764s] -- BACKWARD_HAS_BACKTRACE=0
+[0.764s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.764s] -- BACKWARD_HAS_DW=1
+[0.764s] -- BACKWARD_HAS_BFD=0
+[0.765s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.765s] -- Found moveit_core: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake)
+[1.010s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.058s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.101s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.107s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.116s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.214s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.217s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.321s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.347s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.409s] -- Found Threads: TRUE  
+[1.569s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.572s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.616s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.768s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.045s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.132s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.153s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.153s] -- Configured cppcheck include dirs: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[3.153s] -- Configured cppcheck exclude dirs and/or files: 
+[3.154s] -- Added test 'xmllint' to check XML markup files
+[3.156s] -- Configuring done
+[3.183s] -- Generating done
+[3.185s] -- Build files have been written to: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner
+[3.199s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner
+[3.200s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner -- -j16 -l16
+[3.254s] [ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[3.254s] [ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[3.254s] [ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[3.255s] [ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[3.256s] [ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[28.084s] [100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[28.296s] [100%] Built target chomp_motion_planner
+[28.310s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner -- -j16 -l16
+[28.351s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner
+[28.359s] -- Install configuration: "Release"
+[28.359s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5
+[28.360s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5" to ""
+[28.360s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[28.361s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[28.362s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[28.362s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[28.362s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[28.362s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[28.363s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[28.363s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[28.363s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[28.363s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[28.363s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[28.363s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[28.364s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[28.364s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[28.364s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[28.364s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[28.364s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[28.365s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[28.365s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[28.365s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[28.365s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[28.365s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[28.368s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/chomp_motion_planner

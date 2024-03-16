@@ -1,0 +1,104 @@
+[0.347s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom
+[0.606s] -- The CXX compiler identification is GNU 11.4.0
+[0.606s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.607s] -- Detecting CXX compile features
+[0.607s] -- Detecting CXX compile features - done
+[0.607s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.607s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.772s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.869s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.938s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.036s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.040s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.663s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.699s] -- The C compiler identification is GNU 11.4.0
+[1.705s] -- Detecting C compiler ABI info
+[1.766s] -- Detecting C compiler ABI info - done
+[1.772s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.773s] -- Detecting C compile features
+[1.773s] -- Detecting C compile features - done
+[1.775s] -- Looking for C++ include pthread.h
+[1.853s] -- Looking for C++ include pthread.h - found
+[1.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.931s] -- Found Threads: TRUE  
+[1.935s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.956s] -- Configuring done
+[1.973s] -- Generating done
+[1.975s] -- Build files have been written to: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom
+[1.983s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom
+[1.985s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom -- -j16 -l16
+[2.031s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.031s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.032s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[2.034s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[2.044s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[2.276s] running egg_info
+[2.276s] creating srdfdom.egg-info
+[2.277s] writing srdfdom.egg-info/PKG-INFO
+[2.277s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[2.277s] writing top-level names to srdfdom.egg-info/top_level.txt
+[2.277s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.280s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.280s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.318s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[2.841s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.886s] [ 45%] Built target gtest_main
+[5.146s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[5.253s] [ 54%] Built target srdfdom
+[10.064s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.109s] [ 63%] Built target gtest
+[10.131s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[10.131s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[12.011s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[12.050s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[12.103s] [100%] Built target test_cpp_nl_NL.UTF-8
+[12.137s] [100%] Built target test_cpp_C
+[12.149s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom -- -j16 -l16
+[12.185s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom
+[12.192s] -- Install configuration: "Release"
+[12.192s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[12.193s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib/libsrdfdom.so
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/include/srdfdom
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/include/srdfdom/model.h
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/include/srdfdom/srdf_writer.h
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/include/srdfdom/visibility_control.h
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib/srdfdom/display_srdf
+[12.193s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[12.194s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[12.195s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[12.195s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[12.222s] Listing '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[12.222s] Compiling '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[12.222s] Compiling '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[12.226s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/library_path.sh
+[12.226s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[12.226s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[12.226s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[12.226s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/path.sh
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/environment/path.dsv
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/local_setup.bash
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/local_setup.sh
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/local_setup.zsh
+[12.227s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/local_setup.dsv
+[12.228s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/package.dsv
+[12.228s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[12.228s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[12.228s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[12.228s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[12.228s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.229s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[12.229s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[12.229s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/package.xml
+[12.231s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/srdfdom

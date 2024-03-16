@@ -1,0 +1,111 @@
+[0.049s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_ros/occupancy_map_monitor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.288s] -- Found moveit_common: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common/share/moveit_common/cmake)
+[0.290s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.535s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.540s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.540s] -- BACKWARD_HAS_UNWIND=1
+[0.540s] -- BACKWARD_HAS_BACKTRACE=0
+[0.540s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.541s] -- BACKWARD_HAS_DW=1
+[0.541s] -- BACKWARD_HAS_BFD=0
+[0.541s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.541s] -- Found moveit_core: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/share/moveit_core/cmake)
+[0.736s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.779s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.817s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.822s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.830s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.843s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.922s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.925s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.022s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.046s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.101s] -- Found Threads: TRUE  
+[1.246s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.248s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.288s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.423s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.670s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.555s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.573s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.578s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.578s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.595s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.596s] -- Configured cppcheck include dirs: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_ros/occupancy_map_monitor/include
+[2.596s] -- Configured cppcheck exclude dirs and/or files: 
+[2.596s] -- Added test 'lint_cmake' to check CMake code style
+[2.597s] -- Added test 'xmllint' to check XML markup files
+[2.599s] -- Configuring done
+[2.649s] -- Generating done
+[2.652s] -- Build files have been written to: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor
+[2.662s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_ros/occupancy_map_monitor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor
+[2.664s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor -- -j16 -l16
+[2.713s] [ 46%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.713s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor.cpp.o[0m
+[2.713s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_updater.cpp.o[0m
+[2.713s] [ 46%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.713s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor_middleware_handle.cpp.o[0m
+[2.713s] [ 46%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.707s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.742s] [ 53%] Built target gmock_main
+[8.426s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.473s] [ 61%] Built target gmock
+[11.034s] [ 69%] [32m[1mLinking CXX shared library libmoveit_ros_occupancy_map_monitor.so[0m
+[11.205s] [ 69%] Built target moveit_ros_occupancy_map_monitor
+[11.225s] [ 84%] [32mBuilding CXX object CMakeFiles/occupancy_map_monitor_tests.dir/test/occupancy_map_monitor_tests.cpp.o[0m
+[11.225s] [ 84%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o[0m
+[16.523s] [ 92%] [32m[1mLinking CXX executable occupancy_map_monitor_tests[0m
+[16.700s] [ 92%] Built target occupancy_map_monitor_tests
+[20.301s] [100%] [32m[1mLinking CXX executable moveit_ros_occupancy_map_server[0m
+[20.488s] [100%] Built target moveit_ros_occupancy_map_server
+[20.502s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor -- -j16 -l16
+[20.542s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor
+[20.548s] -- Install configuration: "Release"
+[20.548s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5
+[20.550s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5" to ""
+[20.550s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so
+[20.550s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server
+[20.551s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server" to ""
+[20.551s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/include
+[20.551s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/include/moveit
+[20.552s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor
+[20.552s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+[20.552s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor_middleware_handle.hpp
+[20.552s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+[20.552s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.sh
+[20.552s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.dsv
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/package_run_dependencies/moveit_ros_occupancy_map_monitor
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/parent_prefix_path/moveit_ros_occupancy_map_monitor
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.sh
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.dsv
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.sh
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.dsv
+[20.553s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.bash
+[20.554s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.sh
+[20.554s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.zsh
+[20.554s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+[20.554s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.dsv
+[20.554s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/packages/moveit_ros_occupancy_map_monitor
+[20.554s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport.cmake
+[20.555s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport-release.cmake
+[20.555s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_targets-extras.cmake
+[20.555s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.555s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig.cmake
+[20.555s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig-version.cmake
+[20.555s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.xml
+[20.557s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/build/moveit_ros_occupancy_map_monitor

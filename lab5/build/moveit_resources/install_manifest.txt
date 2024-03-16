@@ -1,0 +1,15 @@
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/ament_index/resource_index/package_run_dependencies/moveit_resources
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/ament_index/resource_index/parent_prefix_path/moveit_resources
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/environment/path.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/environment/path.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/local_setup.bash
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/local_setup.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/local_setup.zsh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/local_setup.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/package.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/ament_index/resource_index/packages/moveit_resources
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_resources/share/moveit_resources/package.xml

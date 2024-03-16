@@ -1,0 +1,612 @@
+[0.107s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.174s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.264s] -- Found moveit_common: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common/share/moveit_common/cmake)
+[0.269s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.492s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.670s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.677s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.677s] -- BACKWARD_HAS_UNWIND=1
+[0.677s] -- BACKWARD_HAS_BACKTRACE=0
+[0.677s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.677s] -- BACKWARD_HAS_DW=1
+[0.677s] -- BACKWARD_HAS_BFD=0
+[0.677s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.681s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.696s] -- Found Bullet: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so (Required is at least version "2.87") 
+[0.699s] -- Found common_interfaces: 4.2.3 (/opt/ros/humble/share/common_interfaces/cmake)
+[0.702s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[0.716s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.721s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.727s] -- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.733s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.781s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.787s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.905s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.909s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.024s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.054s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.111s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.122s] -- Looking for C++ include pthread.h
+[1.227s] -- Looking for C++ include pthread.h - found
+[1.227s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.331s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.333s] -- Found Threads: TRUE  
+[1.528s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.576s] -- Found geometric_shapes: 2.1.3 (/opt/ros/humble/share/geometric_shapes/cmake)
+[1.589s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.739s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.995s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[2.005s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.010s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.529s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.566s] -- Found srdfdom: 2.0.4 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/share/srdfdom/cmake)
+[2.580s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.829s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.842s] -- Found tf2_kdl: 0.25.6 (/opt/ros/humble/share/tf2_kdl/cmake)
+[2.896s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.897s] --  *** Building MoveIt 2.5.5-Alpha ***
+[2.902s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.993s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.993s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.084s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.084s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.177s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.181s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.184s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.219s] -- The C compiler identification is GNU 11.4.0
+[3.225s] -- Detecting C compiler ABI info
+[3.308s] -- Detecting C compiler ABI info - done
+[3.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.314s] -- Detecting C compile features
+[3.314s] -- Detecting C compile features - done
+[3.323s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.328s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.331s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.332s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.339s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.340s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.356s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.357s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.369s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.370s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.370s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.383s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.383s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.390s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.391s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.397s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.398s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.408s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.416s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.425s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.425s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.440s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.451s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.460s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.465s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.507s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.508s] -- Configured cppcheck include dirs: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/exceptions/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/collision_detection/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/collision_detection_fcl/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/collision_detection_bullet/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/constraint_samplers/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/controller_manager/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/distance_field/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/collision_distance_field/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/dynamics_solver/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/kinematics_base/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/kinematics_metrics/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/robot_model/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/transforms/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/robot_state/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/robot_trajectory/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/kinematic_constraints/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/macros/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/online_signal_smoothing/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/planning_interface/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/planning_request_adapter/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/planning_scene/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/sensor_manager/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/trajectory_processing/include;/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/utils/include
+[3.508s] -- Configured cppcheck exclude dirs and/or files: 
+[3.512s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.516s] -- Added test 'xmllint' to check XML markup files
+[3.519s] -- Configuring done
+[4.218s] -- Generating done
+[4.227s] -- Build files have been written to: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core
+[4.261s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core
+[4.264s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core -- -j16 -l16
+[4.318s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.318s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.318s] [  3%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/lexical_casts.cpp.o[0m
+[4.318s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.319s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.319s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.319s] [  3%] [32mBuilding CXX object exceptions/CMakeFiles/moveit_exceptions.dir/src/exceptions.cpp.o[0m
+[4.319s] [  3%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/message_checks.cpp.o[0m
+[4.319s] [  3%] [32mBuilding CXX object transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o[0m
+[4.319s] [  4%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/rclcpp_utils.cpp.o[0m
+[4.319s] [  4%] [32mBuilding CXX object kinematics_base/CMakeFiles/moveit_kinematics_base.dir/src/kinematics_base.cpp.o[0m
+[4.319s] [  5%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/find_internal_points.cpp.o[0m
+[4.319s] [  5%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o[0m
+[4.320s] [  5%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_smoothing_base.dir/src/smoothing_base_class.cpp.o[0m
+[4.320s] [  6%] [32mBuilding CXX object version/CMakeFiles/moveit_version.dir/version.cpp.o[0m
+[4.328s] [  7%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core/online_signal_smoothing/moveit_butterworth_parameters/include//moveit_butterworth_parameters.hpp /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit2/moveit_core/online_signal_smoothing/src/butterworth_parameters.yaml `[0m
+[4.375s] [  8%] [32m[1mLinking CXX executable moveit_version[0m
+[4.491s] [  8%] Built target moveit_version
+[4.506s] [  9%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o[0m
+[4.567s] [  9%] Built target moveit_butterworth_parameters
+[5.275s] [ 10%] [32m[1mLinking CXX shared library libmoveit_exceptions.so[0m
+[5.347s] [ 10%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.387s] [ 10%] Built target gtest_main
+[5.478s] [ 10%] Built target moveit_exceptions
+[5.745s] [ 10%] [32m[1mLinking CXX shared library libmoveit_utils.so[0m
+[6.148s] [ 11%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.202s] [ 11%] Built target gmock_main
+[6.628s] [ 11%] Built target moveit_utils
+[7.671s] [ 12%] [32m[1mLinking CXX shared library libmoveit_smoothing_base.so[0m
+[7.782s] [ 12%] Built target moveit_smoothing_base
+[9.166s] [ 13%] [32m[1mLinking CXX shared library libmoveit_kinematics_base.so[0m
+[9.293s] [ 13%] Built target moveit_kinematics_base
+[9.318s] [ 16%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model.cpp.o[0m
+[9.318s] [ 16%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model_group.cpp.o[0m
+[9.318s] [ 16%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/fixed_joint_model.cpp.o[0m
+[9.318s] [ 16%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/aabb.cpp.o[0m
+[9.318s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/floating_joint_model.cpp.o[0m
+[9.318s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/link_model.cpp.o[0m
+[9.319s] [ 18%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/revolute_joint_model.cpp.o[0m
+[9.319s] [ 18%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/robot_model.cpp.o[0m
+[9.319s] [ 19%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/prismatic_joint_model.cpp.o[0m
+[9.319s] [ 19%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/planar_joint_model.cpp.o[0m
+[11.616s] [ 20%] [32m[1mLinking CXX shared library libmoveit_transforms.so[0m
+[11.854s] [ 20%] Built target moveit_transforms
+[12.387s] [ 21%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.444s] [ 21%] [32m[1mLinking CXX shared library libmoveit_distance_field.so[0m
+[12.451s] [ 21%] Built target gtest
+[12.482s] [ 21%] [32mBuilding CXX object transforms/CMakeFiles/test_transforms.dir/test/test_transforms.cpp.o[0m
+[12.616s] [ 21%] Built target moveit_distance_field
+[12.642s] [ 21%] [32mBuilding CXX object distance_field/CMakeFiles/test_distance_field.dir/test/test_distance_field.cpp.o[0m
+[12.647s] [ 22%] [32mBuilding CXX object distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o[0m
+[12.695s] [ 23%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.765s] [ 23%] Built target gmock
+[15.399s] [ 24%] [32m[1mLinking CXX executable test_transforms[0m
+[15.533s] [ 24%] Built target test_transforms
+[16.577s] [ 24%] [32m[1mLinking CXX executable test_voxel_grid[0m
+[16.690s] [ 24%] Built target test_voxel_grid
+[18.284s] [ 25%] [32m[1mLinking CXX shared library libmoveit_robot_model.so[0m
+[18.421s] [ 25%] Built target moveit_robot_model
+[18.442s] [ 29%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/robot_state.cpp.o[0m
+[18.442s] [ 29%] [32mBuilding CXX object utils/CMakeFiles/moveit_test_utils.dir/src/robot_model_test_utils.cpp.o[0m
+[18.442s] [ 29%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/attached_body.cpp.o[0m
+[18.442s] [ 29%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/cartesian_interpolator.cpp.o[0m
+[18.443s] [ 29%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_butterworth_filter.dir/src/butterworth_filter.cpp.o[0m
+[18.443s] [ 29%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/conversions.cpp.o[0m
+[20.749s] [ 30%] [32m[1mLinking CXX executable test_distance_field[0m
+[20.984s] [ 30%] Built target test_distance_field
+[23.938s] [ 30%] [32m[1mLinking CXX shared library libmoveit_butterworth_filter.so[0m
+[24.084s] [ 30%] Built target moveit_butterworth_filter
+[24.106s] [ 30%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/test_butterworth_filter.dir/test/test_butterworth_filter.cpp.o[0m
+[25.785s] [ 30%] [32m[1mLinking CXX shared library libmoveit_test_utils.so[0m
+[25.921s] [ 30%] Built target moveit_test_utils
+[25.943s] [ 31%] [32mBuilding CXX object robot_model/CMakeFiles/test_robot_model.dir/test/test.cpp.o[0m
+[29.382s] [ 32%] [32m[1mLinking CXX executable test_butterworth_filter[0m
+[29.511s] [ 32%] Built target test_butterworth_filter
+[30.496s] [ 32%] [32m[1mLinking CXX executable test_robot_model[0m
+[30.691s] [ 32%] Built target test_robot_model
+[35.862s] [ 33%] [32m[1mLinking CXX shared library libmoveit_robot_state.so[0m
+[36.011s] [ 33%] Built target moveit_robot_state
+[36.034s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_benchmark.dir/test/robot_state_benchmark.cpp.o[0m
+[36.034s] [ 35%] [32mBuilding CXX object robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/src/robot_trajectory.cpp.o[0m
+[36.034s] [ 35%] [32mBuilding CXX object kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o[0m
+[36.035s] [ 35%] [32mBuilding CXX object dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o[0m
+[36.035s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_complex.dir/test/test_kinematic_complex.cpp.o[0m
+[36.035s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state.dir/test/robot_state_test.cpp.o[0m
+[36.035s] [ 36%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o[0m
+[36.035s] [ 36%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_common.cpp.o[0m
+[36.035s] [ 36%] [32mBuilding CXX object robot_state/CMakeFiles/test_cartesian_interpolator.dir/test/test_cartesian_interpolator.cpp.o[0m
+[36.035s] [ 37%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_matrix.cpp.o[0m
+[36.036s] [ 37%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_octomap_filter.cpp.o[0m
+[36.036s] [ 37%] [32mBuilding CXX object robot_state/CMakeFiles/test_aabb.dir/test/test_aabb.cpp.o[0m
+[36.036s] [ 38%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_tools.cpp.o[0m
+[36.036s] [ 39%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world.cpp.o[0m
+[36.036s] [ 39%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world_diff.cpp.o[0m
+[36.038s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_env.cpp.o[0m
+[39.132s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_plugin_cache.cpp.o[0m
+[45.251s] [ 41%] [32m[1mLinking CXX shared library libmoveit_dynamics_solver.so[0m
+[45.314s] [ 42%] [32m[1mLinking CXX executable test_cartesian_interpolator[0m
+[45.527s] [ 42%] Built target moveit_dynamics_solver
+[45.567s] [ 42%] Built target test_cartesian_interpolator
+[46.203s] [ 43%] [32m[1mLinking CXX executable test_robot_state_benchmark[0m
+[46.463s] [ 43%] Built target test_robot_state_benchmark
+[46.916s] [ 44%] [32m[1mLinking CXX executable test_aabb[0m
+[47.021s] [ 45%] [32m[1mLinking CXX executable test_robot_state_complex[0m
+[47.197s] [ 45%] Built target test_aabb
+[47.295s] [ 45%] Built target test_robot_state_complex
+[47.466s] [ 46%] [32m[1mLinking CXX shared library libmoveit_robot_trajectory.so[0m
+[47.617s] [ 46%] Built target moveit_robot_trajectory
+[47.639s] [ 49%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/time_optimal_trajectory_generation.cpp.o[0m
+[47.639s] [ 49%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/ruckig_traj_smoothing.cpp.o[0m
+[47.639s] [ 49%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_response.cpp.o[0m
+[47.639s] [ 49%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/trajectory_tools.cpp.o[0m
+[47.639s] [ 49%] [32mBuilding CXX object robot_trajectory/CMakeFiles/test_robot_trajectory.dir/test/test_robot_trajectory.cpp.o[0m
+[47.640s] [ 49%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o[0m
+[47.640s] [ 50%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_time_parameterization.cpp.o[0m
+[47.641s] [ 51%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o[0m
+[49.673s] [ 52%] [32m[1mLinking CXX executable test_robot_state[0m
+[50.072s] [ 52%] Built target test_robot_state
+[53.074s] [ 53%] [32m[1mLinking CXX shared library libmoveit_collision_detection.so[0m
+[53.277s] [ 53%] Built target moveit_collision_detection
+[53.307s] [ 54%] [32mBuilding CXX object collision_detection/CMakeFiles/test_all_valid.dir/test/test_all_valid.cpp.o[0m
+[53.307s] [ 54%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o[0m
+[53.308s] [ 55%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world.dir/test/test_world.cpp.o[0m
+[53.308s] [ 55%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_env_fcl.cpp.o[0m
+[53.308s] [ 56%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world_diff.dir/test/test_world_diff.cpp.o[0m
+[53.310s] [ 56%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_discrete_bvh_manager.cpp.o[0m
+[53.310s] [ 57%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_cast_bvh_manager.cpp.o[0m
+[53.313s] [ 58%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_utils.cpp.o[0m
+[54.689s] [ 58%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/collision_env_bullet.cpp.o[0m
+[54.847s] [ 59%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o[0m
+[55.900s] [ 60%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/contact_checker_common.cpp.o[0m
+[57.403s] [ 60%] [32m[1mLinking CXX executable test_robot_trajectory[0m
+[57.868s] [ 60%] Built target test_robot_trajectory
+[57.885s] [ 60%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/ros_bullet_utils.cpp.o[0m
+[58.815s] [ 61%] [32m[1mLinking CXX shared library libmoveit_planning_interface.so[0m
+[59.090s] [ 61%] Built target moveit_planning_interface
+[60.056s] [ 62%] [32m[1mLinking CXX shared library libmoveit_trajectory_processing.so[0m
+[60.374s] [ 62%] Built target moveit_trajectory_processing
+[60.409s] [ 63%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_time_optimal_trajectory_generation.dir/test/test_time_optimal_trajectory_generation.cpp.o[0m
+[60.409s] [ 64%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_ruckig_traj_smoothing.dir/test/test_ruckig_traj_smoothing.cpp.o[0m
+[60.410s] [ 64%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_time_parameterization.dir/test/test_time_parameterization.cpp.o[0m
+[61.067s] [ 65%] [32m[1mLinking CXX executable test_world_diff[0m
+[61.462s] [ 65%] Built target test_world_diff
+[62.675s] [ 66%] [32m[1mLinking CXX shared library libmoveit_kinematics_metrics.so[0m
+[62.971s] [ 66%] Built target moveit_kinematics_metrics
+[63.230s] [ 66%] [32m[1mLinking CXX executable test_world[0m
+[63.536s] [ 67%] [32m[1mLinking CXX executable test_all_valid[0m
+[63.623s] [ 67%] Built target test_world
+[63.804s] [ 67%] Built target test_all_valid
+[65.309s] [ 68%] [32m[1mLinking CXX shared library libmoveit_collision_detection_bullet.so[0m
+[65.516s] [ 68%] Built target moveit_collision_detection_bullet
+[65.538s] [ 71%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/test/test_bullet_continuous_collision_checking.cpp.o[0m
+[65.538s] [ 71%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection.dir/test/test_bullet_collision_detection_pr2.cpp.o[0m
+[65.538s] [ 71%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/test/test_bullet_collision_detection_panda.cpp.o[0m
+[65.542s] [ 72%] [32m[1mLinking CXX shared library libmoveit_collision_detection_fcl.so[0m
+[65.754s] [ 72%] Built target moveit_collision_detection_fcl
+[65.777s] [ 73%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_env.dir/test/test_fcl_env.cpp.o[0m
+[65.777s] [ 74%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection.dir/test/test_fcl_collision_detection_pr2.cpp.o[0m
+[65.778s] [ 75%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/test/test_fcl_collision_detection_panda.cpp.o[0m
+[65.780s] [ 76%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/utils.cpp.o[0m
+[65.780s] [ 76%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[68.988s] [ 76%] [32m[1mLinking CXX executable test_ruckig_traj_smoothing[0m
+[69.293s] [ 76%] Built target test_ruckig_traj_smoothing
+[69.482s] [ 77%] [32m[1mLinking CXX executable test_time_parameterization[0m
+[69.778s] [ 77%] Built target test_time_parameterization
+[70.643s] [ 78%] [32m[1mLinking CXX executable test_time_optimal_trajectory_generation[0m
+[70.926s] [ 78%] Built target test_time_optimal_trajectory_generation
+[73.914s] [ 78%] [32m[1mLinking CXX executable test_bullet_collision_detection_panda[0m
+[74.201s] [ 78%] Built target test_bullet_collision_detection_panda
+[75.474s] [ 79%] [32m[1mLinking CXX executable test_bullet_continuous_collision_checking[0m
+[75.776s] [ 79%] Built target test_bullet_continuous_collision_checking
+[75.951s] [ 80%] [32m[1mLinking CXX executable test_fcl_collision_env[0m
+[76.235s] [ 80%] Built target test_fcl_collision_env
+[76.254s] [ 80%] [32m[1mLinking CXX executable test_bullet_collision_detection[0m
+[76.470s] [ 80%] [32m[1mLinking CXX executable test_fcl_collision_detection_panda[0m
+[76.537s] [ 80%] Built target test_bullet_collision_detection
+[76.725s] [ 80%] Built target test_fcl_collision_detection_panda
+[76.822s] [ 80%] [32m[1mLinking CXX executable test_fcl_collision_detection[0m
+[77.070s] [ 80%] Built target test_fcl_collision_detection
+[79.414s] [ 81%] [32m[1mLinking CXX shared library libmoveit_kinematic_constraints.so[0m
+[79.566s] [ 81%] Built target moveit_kinematic_constraints
+[79.585s] [ 82%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/test_constraints.dir/test/test_constraints.cpp.o[0m
+[79.586s] [ 82%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/test/test_orientation_constraints.cpp.o[0m
+[79.586s] [ 82%] [32mBuilding CXX object planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o[0m
+[87.384s] [ 83%] [32m[1mLinking CXX executable test_orientation_constraints[0m
+[87.621s] [ 83%] Built target test_orientation_constraints
+[88.469s] [ 84%] [32m[1mLinking CXX executable test_constraints[0m
+[88.691s] [ 84%] Built target test_constraints
+[93.028s] [ 84%] [32m[1mLinking CXX shared library libmoveit_planning_scene.so[0m
+[93.184s] [ 84%] Built target moveit_planning_scene
+[93.208s] [ 84%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/collision_detector_fcl_plugin.dir/src/collision_detector_fcl_plugin_loader.cpp.o[0m
+[93.208s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_common_distance_field.cpp.o[0m
+[93.208s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_env_distance_field.cpp.o[0m
+[93.208s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_env_hybrid.cpp.o[0m
+[93.208s] [ 88%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler.cpp.o[0m
+[93.208s] [ 88%] [32mBuilding CXX object planning_request_adapter/CMakeFiles/moveit_planning_request_adapter.dir/src/planning_request_adapter.cpp.o[0m
+[93.209s] [ 88%] [32mBuilding CXX object collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_distance_field_types.cpp.o[0m
+[93.209s] [ 88%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler_tools.cpp.o[0m
+[93.209s] [ 88%] [32mBuilding CXX object planning_scene/CMakeFiles/test_collision_objects.dir/test/test_collision_objects.cpp.o[0m
+[93.209s] [ 88%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/collision_detector_bullet_plugin.dir/src/collision_detector_bullet_plugin_loader.cpp.o[0m
+[93.209s] [ 90%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/default_constraint_samplers.cpp.o[0m
+[93.209s] [ 90%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/union_constraint_sampler.cpp.o[0m
+[93.209s] [ 90%] [32mBuilding CXX object planning_scene/CMakeFiles/test_planning_scene.dir/test/test_planning_scene.cpp.o[0m
+[93.209s] [ 90%] [32mBuilding CXX object planning_scene/CMakeFiles/test_multi_threaded.dir/test/test_multi_threaded.cpp.o[0m
+[93.209s] [ 88%] [32mBuilding CXX object constraint_samplers/CMakeFiles/moveit_constraint_samplers.dir/src/constraint_sampler_manager.cpp.o[0m
+[104.011s] [ 91%] [32m[1mLinking CXX shared library libmoveit_planning_request_adapter.so[0m
+[104.446s] [ 91%] Built target moveit_planning_request_adapter
+[104.468s] [ 92%] [32m[1mLinking CXX shared library libcollision_detector_fcl_plugin.so[0m
+[104.640s] [ 92%] Built target collision_detector_fcl_plugin
+[104.693s] [ 93%] [32m[1mLinking CXX shared library libcollision_detector_bullet_plugin.so[0m
+[104.891s] [ 93%] Built target collision_detector_bullet_plugin
+[105.697s] [ 94%] [32m[1mLinking CXX executable test_multi_threaded[0m
+[105.980s] [ 94%] Built target test_multi_threaded
+[107.101s] [ 95%] [32m[1mLinking CXX shared library libmoveit_constraint_samplers.so[0m
+[107.271s] [ 95%] Built target moveit_constraint_samplers
+[107.310s] [ 97%] [32mBuilding CXX object constraint_samplers/CMakeFiles/test_constraint_samplers.dir/test/pr2_arm_kinematics_plugin.cpp.o[0m
+[107.310s] [ 97%] [32mBuilding CXX object constraint_samplers/CMakeFiles/test_constraint_samplers.dir/test/test_constraint_samplers.cpp.o[0m
+[107.310s] [ 97%] [32mBuilding CXX object constraint_samplers/CMakeFiles/test_constraint_samplers.dir/test/pr2_arm_ik.cpp.o[0m
+[107.655s] [ 97%] [32m[1mLinking CXX executable test_collision_objects[0m
+[107.912s] [ 97%] Built target test_collision_objects
+[110.560s] [ 98%] [32m[1mLinking CXX shared library libmoveit_collision_distance_field.so[0m
+[110.745s] [ 98%] [32m[1mLinking CXX executable test_planning_scene[0m
+[110.753s] [ 98%] Built target moveit_collision_distance_field
+[110.785s] [ 99%] [32mBuilding CXX object collision_distance_field/CMakeFiles/test_collision_distance_field.dir/test/test_collision_distance_field.cpp.o[0m
+[111.028s] [ 99%] Built target test_planning_scene
+[118.985s] [100%] [32m[1mLinking CXX executable test_constraint_samplers[0m
+[119.272s] [100%] Built target test_constraint_samplers
+[119.612s] [100%] [32m[1mLinking CXX executable test_collision_distance_field[0m
+[119.841s] [100%] Built target test_collision_distance_field
+[119.856s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core -- -j16 -l16
+[119.927s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core
+[119.935s] -- Install configuration: "Release"
+[119.936s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/version.h
+[119.936s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.936s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.936s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field
+[119.936s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field/collision_common_distance_field.h
+[119.936s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_distance_field.h
+[119.937s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field/collision_env_distance_field.h
+[119.937s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field/collision_distance_field_types.h
+[119.937s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field/collision_env_hybrid.h
+[119.937s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_hybrid.h
+[119.937s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_collision_distance_field_export.h
+[119.938s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.938s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.938s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers
+[119.938s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_manager.h
+[119.938s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers/default_constraint_samplers.h
+[119.938s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_tools.h
+[119.939s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler.h
+[119.939s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers/union_constraint_sampler.h
+[119.939s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_allocator.h
+[119.940s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.940s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.940s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/controller_manager
+[119.940s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/controller_manager/controller_manager.h
+[119.940s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.940s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.941s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/distance_field
+[119.941s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/distance_field/voxel_grid.h
+[119.941s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/distance_field/find_internal_points.h
+[119.941s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/distance_field/distance_field.h
+[119.941s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/distance_field/propagation_distance_field.h
+[119.941s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.942s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.942s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/dynamics_solver
+[119.942s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/dynamics_solver/dynamics_solver.h
+[119.942s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.942s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.942s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/exceptions
+[119.942s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/exceptions/exceptions.h
+[119.943s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.943s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.943s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematics_base
+[119.943s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h
+[119.943s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_kinematics_base_export.h
+[119.943s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.943s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.944s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematic_constraints
+[119.944s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h
+[119.944s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematic_constraints/utils.h
+[119.944s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.945s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.945s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematics_metrics
+[119.945s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/kinematics_metrics/kinematics_metrics.h
+[119.945s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.945s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.945s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/macros
+[119.945s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/macros/class_forward.h
+[119.946s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/macros/console_colors.h
+[119.946s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/macros/declare_ptr.h
+[119.946s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/macros/deprecation.h
+[119.947s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_butterworth_parameters
+[119.947s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_butterworth_parameters/moveit_butterworth_parameters.hpp
+[119.947s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.947s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.947s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/online_signal_smoothing
+[119.947s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/online_signal_smoothing/butterworth_filter.h
+[119.948s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/online_signal_smoothing/smoothing_base_class.h
+[119.948s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_smoothing_base_export.h
+[119.948s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_butterworth_filter_export.h
+[119.949s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.949s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.949s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_interface
+[119.949s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_interface/planning_response.h
+[119.949s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_interface/planning_interface.h
+[119.949s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_interface/planning_request.h
+[119.950s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.950s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.950s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_request_adapter
+[119.950s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h
+[119.950s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.950s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.951s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_scene
+[119.951s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/planning_scene/planning_scene.h
+[119.951s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_planning_scene_export.h
+[119.951s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.951s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.951s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model
+[119.951s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/floating_joint_model.h
+[119.951s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/aabb.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/joint_model.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/joint_model_group.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/link_model.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/robot_model.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/planar_joint_model.h
+[119.952s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h
+[119.953s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.953s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.953s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_state
+[119.953s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_state/robot_state.h
+[119.953s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_state/cartesian_interpolator.h
+[119.954s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_state/conversions.h
+[119.954s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_state/attached_body.h
+[119.954s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.954s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.954s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_trajectory
+[119.954s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h
+[119.955s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.955s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.955s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/sensor_manager
+[119.955s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/sensor_manager/sensor_manager.h
+[119.956s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.956s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.956s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing
+[119.956s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing/time_parameterization.h
+[119.956s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing/ruckig_traj_smoothing.h
+[119.956s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing/trajectory_tools.h
+[119.957s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing/time_optimal_trajectory_generation.h
+[119.957s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing/iterative_spline_parameterization.h
+[119.957s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/trajectory_processing/iterative_time_parameterization.h
+[119.957s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.958s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.958s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/transforms
+[119.958s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/transforms/transforms.h
+[119.958s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.958s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.958s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/utils
+[119.958s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/utils/moveit_error_code.h
+[119.958s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/utils/rclcpp_utils.h
+[119.959s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/utils/robot_model_test_utils.h
+[119.959s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/utils/message_checks.h
+[119.959s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/utils/lexical_casts.h
+[119.960s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin/moveit_version
+[119.960s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.960s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.960s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection
+[119.961s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_plugin_cache.h
+[119.961s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/allvalid
+[119.961s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/allvalid/collision_env_allvalid.h
+[119.961s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.h
+[119.961s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_tools.h
+[119.962s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/world_diff.h
+[119.962s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/world.h
+[119.962s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h
+[119.962s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_env.h
+[119.962s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/test_collision_common_panda.h
+[119.963s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_matrix.h
+[119.963s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/occupancy_map.h
+[119.963s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_plugin.h
+[119.963s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/test_collision_common_pr2.h
+[119.964s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_common.h
+[119.964s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection/collision_octomap_filter.h
+[119.964s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_collision_detection_export.h
+[119.964s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.964s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.964s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet
+[119.965s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/collision_env_bullet.h
+[119.965s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.h
+[119.965s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_allocator_bullet.h
+[119.965s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration
+[119.965s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h
+[119.966s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h
+[119.966s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.h
+[119.966s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h
+[119.967s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h
+[119.967s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/basic_types.h
+[119.967s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h
+[119.968s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_collision_detection_bullet_export.h
+[119.968s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include
+[119.968s] -- Up-to-date: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit
+[119.968s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_fcl
+[119.968s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.h
+[119.969s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_allocator_fcl.h
+[119.969s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_fcl/collision_env_fcl.h
+[119.969s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_fcl/collision_common.h
+[119.969s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit/collision_detection_fcl/fcl_compat.h
+[119.970s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/include/moveit_collision_detection_fcl_export.h
+[119.970s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
+[119.970s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5" to ""
+[119.970s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libcollision_detector_bullet_plugin.so
+[119.970s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
+[119.971s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5" to ""
+[119.971s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_butterworth_filter.so
+[119.971s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
+[119.972s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5" to ""
+[119.973s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_distance_field.so
+[119.973s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
+[119.974s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5" to ""
+[119.974s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection.so
+[119.974s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
+[119.975s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5" to ""
+[119.975s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection_fcl.so
+[119.975s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
+[119.976s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5" to ""
+[119.976s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_collision_detection_bullet.so
+[119.976s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
+[119.977s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5" to ""
+[119.977s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_dynamics_solver.so
+[119.977s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
+[119.978s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5" to ""
+[119.978s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_constraint_samplers.so
+[119.978s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
+[119.979s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5" to ""
+[119.979s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_distance_field.so
+[119.979s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
+[119.979s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5" to ""
+[119.979s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_exceptions.so
+[119.979s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematics_base.so
+[119.980s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematics_base.so" to ""
+[119.980s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
+[119.981s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5" to ""
+[119.981s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematic_constraints.so
+[119.981s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
+[119.982s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5" to ""
+[119.982s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_kinematics_metrics.so
+[119.982s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
+[119.983s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5" to ""
+[119.983s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_interface.so
+[119.983s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
+[119.985s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5" to ""
+[119.985s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_scene.so
+[119.985s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
+[119.985s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5" to ""
+[119.985s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_planning_request_adapter.so
+[119.985s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
+[119.986s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5" to ""
+[119.987s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_model.so
+[119.987s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
+[119.988s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5" to ""
+[119.988s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_state.so
+[119.988s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
+[119.989s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5" to ""
+[119.989s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_robot_trajectory.so
+[119.989s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
+[119.990s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5" to ""
+[119.990s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_smoothing_base.so
+[119.990s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
+[119.991s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5" to ""
+[119.991s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_test_utils.so
+[119.991s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
+[119.992s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5" to ""
+[119.992s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_trajectory_processing.so
+[119.992s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
+[119.992s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_transforms.so.2.5.5" to ""
+[119.992s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_transforms.so
+[119.992s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_utils.so.2.5.5
+[119.993s] -- Set runtime path of "/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_utils.so.2.5.5" to ""
+[119.993s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib/libmoveit_utils.so
+[119.994s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/environment/library_path.sh
+[119.995s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/environment/library_path.dsv
+[119.995s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/collision_detector_fcl_description.xml
+[119.995s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/collision_detector_bullet_description.xml
+[119.995s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/filter_plugin_butterworth.xml
+[119.996s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/ament_index/resource_index/package_run_dependencies/moveit_core
+[119.996s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/ament_index/resource_index/parent_prefix_path/moveit_core
+[119.997s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/environment/ament_prefix_path.sh
+[119.998s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/environment/ament_prefix_path.dsv
+[119.998s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/environment/path.sh
+[119.998s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/environment/path.dsv
+[119.998s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/local_setup.bash
+[119.999s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/local_setup.sh
+[119.999s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/local_setup.zsh
+[119.999s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/local_setup.dsv
+[120.000s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/package.dsv
+[120.000s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/ament_index/resource_index/packages/moveit_core
+[120.000s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+[120.001s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport.cmake
+[120.001s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport-release.cmake
+[120.002s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[120.002s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake
+[120.002s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[120.003s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake
+[120.003s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig-version.cmake
+[120.003s] -- Installing: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/package.xml
+[120.006s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_moveit_config:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_pr2_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_resources_panda_description:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_core

@@ -1,0 +1,94 @@
+[0.059s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_visual_tools
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.276s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.365s] -- Found moveit_common: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common/share/moveit_common/cmake)
+[0.368s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.687s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.694s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.694s] -- BACKWARD_HAS_UNWIND=1
+[0.694s] -- BACKWARD_HAS_BACKTRACE=0
+[0.694s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.694s] -- BACKWARD_HAS_DW=1
+[0.695s] -- BACKWARD_HAS_BFD=0
+[0.695s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.708s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.721s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.762s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.768s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.778s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.815s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+[1.004s] -- Found moveit_core: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/share/moveit_core/cmake)
+[1.238s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.291s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.377s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.381s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.512s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.550s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.634s] -- Found Threads: TRUE  
+[1.786s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.790s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.836s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.952s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.271s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.379s] -- Found moveit_ros_planning: 2.5.5 (/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[3.385s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.796s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[3.947s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.950s] -- Found OGRE
+[3.950s] --   static     : OFF
+[3.950s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.950s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.950s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.950s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.950s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.951s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.951s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.951s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.951s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.951s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.951s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.975s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.982s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.128s] -- Found X11: /usr/include   
+[4.129s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.310s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.310s] -- Looking for gethostbyname
+[4.581s] -- Looking for gethostbyname - found
+[4.581s] -- Looking for connect
+[5.093s] -- Looking for connect - found
+[5.093s] -- Looking for remove
+[5.627s] -- Looking for remove - found
+[5.628s] -- Looking for shmat
+[6.189s] -- Looking for shmat - found
+[6.190s] -- Looking for IceConnectionNumber in ICE
+[6.920s] -- Looking for IceConnectionNumber in ICE - found
+[6.925s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[6.925s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[10.367s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.537s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.571s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.574s] -- Added test 'lint_cmake' to check CMake code style
+[10.575s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.585s] -- Added test 'xmllint' to check XML markup files
+[10.588s] -- Configuring done
+[11.043s] -- Generating done
+[11.076s] -- Build files have been written to: /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_visual_tools
+[11.190s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_visual_tools
+[11.191s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_planning/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_ros_occupancy_map_monitor/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/lib:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/moveit_core/bin:${PATH} PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/src/build/moveit_visual_tools -- -j16 -l16
+[11.509s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[11.528s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[11.553s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m

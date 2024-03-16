@@ -1,0 +1,15 @@
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/ament_index/resource_index/package_run_dependencies/moveit_planners
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/ament_index/resource_index/parent_prefix_path/moveit_planners
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/environment/path.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/environment/path.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/local_setup.bash
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/local_setup.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/local_setup.zsh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/local_setup.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/package.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/ament_index/resource_index/packages/moveit_planners
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig.cmake
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig-version.cmake
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit_planners/share/moveit_planners/package.xml

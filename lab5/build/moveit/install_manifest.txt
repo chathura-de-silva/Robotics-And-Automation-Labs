@@ -1,0 +1,15 @@
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/environment/ament_prefix_path.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/environment/path.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/environment/path.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/local_setup.bash
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/local_setup.sh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/local_setup.zsh
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/local_setup.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/package.dsv
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/ament_index/resource_index/packages/moveit
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/cmake/moveitConfig.cmake
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/lab5/install/moveit/share/moveit/package.xml

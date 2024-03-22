@@ -1,0 +1,46 @@
+[0.709s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/sim_robot': PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/prefix_override:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sim_robot build --build-base /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build install --record /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/install.log --single-version-externally-managed
+[0.895s] running egg_info
+[0.895s] creating ../build/sim_robot/sim_robot.egg-info
+[0.895s] writing ../build/sim_robot/sim_robot.egg-info/PKG-INFO
+[0.895s] writing dependency_links to ../build/sim_robot/sim_robot.egg-info/dependency_links.txt
+[0.895s] writing entry points to ../build/sim_robot/sim_robot.egg-info/entry_points.txt
+[0.896s] writing requirements to ../build/sim_robot/sim_robot.egg-info/requires.txt
+[0.896s] writing top-level names to ../build/sim_robot/sim_robot.egg-info/top_level.txt
+[0.896s] writing manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+[0.897s] reading manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+[0.897s] adding license file 'LICENSE'
+[0.897s] writing manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+[0.898s] running build
+[0.898s] running build_py
+[0.898s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build
+[0.898s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build/lib
+[0.898s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build/lib/sim_robot
+[0.898s] copying sim_robot/__init__.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build/lib/sim_robot
+[0.898s] copying sim_robot/my_robot_driver.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build/lib/sim_robot
+[0.898s] running install
+[0.909s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.909s]   warnings.warn(
+[0.909s] running install_lib
+[0.910s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages/sim_robot
+[0.910s] copying /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build/lib/sim_robot/__init__.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages/sim_robot
+[0.910s] copying /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build/lib/sim_robot/my_robot_driver.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages/sim_robot
+[0.911s] byte-compiling /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages/sim_robot/__init__.py to __init__.cpython-310.pyc
+[0.911s] byte-compiling /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages/sim_robot/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[0.911s] running install_data
+[0.911s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/ament_index
+[0.912s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/ament_index/resource_index
+[0.912s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/ament_index/resource_index/packages
+[0.912s] copying resource/sim_robot -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/ament_index/resource_index/packages
+[0.912s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot/launch
+[0.912s] copying launch/robot_launch.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot/launch
+[0.912s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot/worlds
+[0.912s] copying worlds/my_world.wbt -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot/worlds
+[0.912s] creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot/resource
+[0.912s] copying resource/my_robot.urdf -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot/resource
+[0.912s] copying package.xml -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/share/sim_robot
+[0.912s] running install_egg_info
+[0.914s] Copying ../build/sim_robot/sim_robot.egg-info to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages/sim_robot-0.0.0-py3.10.egg-info
+[0.914s] running install_scripts
+[0.929s] Installing my_robot_driver script to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/sim_robot
+[0.929s] writing list of installed files to '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/install.log'
+[0.945s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/sim_robot' returned '0': PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/prefix_override:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/install/sim_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sim_robot build --build-base /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/build install --record /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/build/sim_robot/install.log --single-version-externally-managed

@@ -1,0 +1,46 @@
+running egg_info
+creating ../build/sim_robot/sim_robot.egg-info
+writing ../build/sim_robot/sim_robot.egg-info/PKG-INFO
+writing dependency_links to ../build/sim_robot/sim_robot.egg-info/dependency_links.txt
+writing entry points to ../build/sim_robot/sim_robot.egg-info/entry_points.txt
+writing requirements to ../build/sim_robot/sim_robot.egg-info/requires.txt
+writing top-level names to ../build/sim_robot/sim_robot.egg-info/top_level.txt
+writing manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+reading manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot
+copying sim_robot/obstacle_avoider.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot
+copying sim_robot/__init__.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot
+copying sim_robot/my_robot_driver.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot
+running install
+running install_lib
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot
+copying /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot/obstacle_avoider.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot
+copying /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot/__init__.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot
+copying /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build/lib/sim_robot/my_robot_driver.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot
+byte-compiling /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc
+byte-compiling /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+running install_data
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/ament_index
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/ament_index/resource_index
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/ament_index/resource_index/packages
+copying resource/sim_robot -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/ament_index/resource_index/packages
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot/launch
+copying launch/robot_launch.py -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot/launch
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot/worlds
+copying worlds/my_world.wbt -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot/worlds
+creating /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot/resource
+copying resource/my_robot.urdf -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot/resource
+copying package.xml -> /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/share/sim_robot
+running install_egg_info
+Copying ../build/sim_robot/sim_robot.egg-info to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_robot_driver script to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/sim_robot
+Installing obstacle_avoider script to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/sim_robot
+writing list of installed files to '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/install.log'

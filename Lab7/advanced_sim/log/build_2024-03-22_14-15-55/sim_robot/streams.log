@@ -1,0 +1,25 @@
+[0.589s] Invoking command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/sim_robot': PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/prefix_override:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sim_robot build --build-base /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build install --record /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/install.log --single-version-externally-managed
+[0.782s] running egg_info
+[0.782s] writing ../build/sim_robot/sim_robot.egg-info/PKG-INFO
+[0.783s] writing dependency_links to ../build/sim_robot/sim_robot.egg-info/dependency_links.txt
+[0.783s] writing entry points to ../build/sim_robot/sim_robot.egg-info/entry_points.txt
+[0.783s] writing requirements to ../build/sim_robot/sim_robot.egg-info/requires.txt
+[0.783s] writing top-level names to ../build/sim_robot/sim_robot.egg-info/top_level.txt
+[0.784s] reading manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+[0.785s] adding license file 'LICENSE'
+[0.785s] writing manifest file '../build/sim_robot/sim_robot.egg-info/SOURCES.txt'
+[0.785s] running build
+[0.785s] running build_py
+[0.785s] running install
+[0.786s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.786s]   warnings.warn(
+[0.786s] running install_lib
+[0.786s] running install_data
+[0.787s] running install_egg_info
+[0.788s] removing '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.789s] Copying ../build/sim_robot/sim_robot.egg-info to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages/sim_robot-0.0.0-py3.10.egg-info
+[0.789s] running install_scripts
+[0.804s] Installing my_robot_driver script to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/sim_robot
+[0.804s] Installing obstacle_avoider script to /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/sim_robot
+[0.804s] writing list of installed files to '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/install.log'
+[0.820s] Invoked command in '/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/sim_robot' returned '0': PYTHONPATH=/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/prefix_override:/home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/install/sim_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sim_robot build --build-base /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/build install --record /home/chathura/Documents/git-projects/Robotics-and-Automation-Labs/Lab7/advanced_sim/build/sim_robot/install.log --single-version-externally-managed

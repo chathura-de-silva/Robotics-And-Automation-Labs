@@ -1,0 +1,54 @@
+[0.904s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/pmb2_navigation/pmb2_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps
+[1.264s] -- The C compiler identification is GNU 11.4.0
+[1.554s] -- The CXX compiler identification is GNU 11.4.0
+[1.585s] -- Detecting C compiler ABI info
+[1.946s] -- Detecting C compiler ABI info - done
+[1.977s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.980s] -- Detecting C compile features
+[1.983s] -- Detecting C compile features - done
+[2.000s] -- Detecting CXX compiler ABI info
+[2.424s] -- Detecting CXX compiler ABI info - done
+[2.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.453s] -- Detecting CXX compile features
+[2.454s] -- Detecting CXX compile features - done
+[2.493s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.242s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.272s] -- Configuring done
+[4.284s] -- Generating done
+[4.288s] -- Build files have been written to: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps
+[4.310s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/pmb2_navigation/pmb2_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps
+[4.311s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps -- -j12 -l12
+[4.746s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps -- -j12 -l12
+[4.968s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps
+[5.018s] -- Install configuration: ""
+[5.019s] -- Execute custom install script
+[5.023s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/config/map.pgm
+[5.075s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/config/map.yaml
+[5.126s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/config/mmap.yaml
+[5.184s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/map.pgm
+[5.238s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/map.yaml
+[5.299s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/mmap.yaml
+[5.355s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.bmp
+[5.415s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.bt
+[5.470s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.ot
+[5.529s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.pgm
+[5.578s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.yaml
+[5.627s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/mmap.yaml
+[5.679s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/transformation.yaml
+[5.727s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/ament_index/resource_index/package_run_dependencies/pmb2_maps
+[5.776s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/ament_index/resource_index/parent_prefix_path/pmb2_maps
+[5.824s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/environment/ament_prefix_path.sh
+[5.876s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/environment/ament_prefix_path.dsv
+[5.927s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/environment/path.sh
+[5.984s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/environment/path.dsv
+[6.037s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/local_setup.bash
+[6.095s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/local_setup.sh
+[6.168s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/local_setup.zsh
+[6.202s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/local_setup.dsv
+[6.252s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/package.dsv
+[6.304s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/ament_index/resource_index/packages/pmb2_maps
+[6.354s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/cmake/pmb2_mapsConfig.cmake
+[6.409s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/cmake/pmb2_mapsConfig-version.cmake
+[6.452s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_maps/share/pmb2_maps/package.xml
+[6.525s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_maps

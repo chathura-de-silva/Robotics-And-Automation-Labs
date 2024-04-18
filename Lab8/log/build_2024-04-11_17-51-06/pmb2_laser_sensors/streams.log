@@ -1,0 +1,57 @@
+[0.878s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/pmb2_navigation/pmb2_laser_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors
+[1.223s] -- The C compiler identification is GNU 11.4.0
+[1.503s] -- The CXX compiler identification is GNU 11.4.0
+[1.544s] -- Detecting C compiler ABI info
+[1.926s] -- Detecting C compiler ABI info - done
+[1.958s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.959s] -- Detecting C compile features
+[1.961s] -- Detecting C compile features - done
+[1.971s] -- Detecting CXX compiler ABI info
+[2.378s] -- Detecting CXX compiler ABI info - done
+[2.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.413s] -- Detecting CXX compile features
+[2.415s] -- Detecting CXX compile features - done
+[2.457s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.200s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.466s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.561s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.572s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.577s] -- Added test 'lint_cmake' to check CMake code style
+[4.582s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.590s] -- Added test 'xmllint' to check XML markup files
+[4.603s] -- Configuring done
+[4.621s] -- Generating done
+[4.622s] -- Build files have been written to: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors
+[4.651s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/pmb2_navigation/pmb2_laser_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors
+[4.662s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors -- -j12 -l12
+[4.835s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors -- -j12 -l12
+[5.026s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors
+[5.069s] -- Install configuration: ""
+[5.071s] -- Execute custom install script
+[5.075s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/config/sick-551_filter.yaml
+[5.126s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/config/sick-561_filter.yaml
+[5.179s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/config/sick-571_filter.yaml
+[5.232s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/config/sick_tim551_laser.yaml
+[5.286s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/config/sick_tim561_laser.yaml
+[5.344s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/config/sick_tim571_laser.yaml
+[5.400s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/launch/laser.launch.py
+[5.456s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/launch/laser_filters.launch.py
+[5.512s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/launch/sick-551_laser.launch.py
+[5.564s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/launch/sick-561_laser.launch.py
+[5.617s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/launch/sick-571_laser.launch.py
+[5.673s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/package_run_dependencies/pmb2_laser_sensors
+[5.726s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/parent_prefix_path/pmb2_laser_sensors
+[5.776s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.sh
+[5.826s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.dsv
+[5.874s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.sh
+[5.941s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.dsv
+[5.971s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.bash
+[6.019s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.sh
+[6.068s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.zsh
+[6.130s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.dsv
+[6.163s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.dsv
+[6.213s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/packages/pmb2_laser_sensors
+[6.267s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig.cmake
+[6.314s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig-version.cmake
+[6.369s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.xml
+[6.427s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pmb2_laser_sensors

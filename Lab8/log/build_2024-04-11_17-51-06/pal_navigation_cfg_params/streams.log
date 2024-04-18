@@ -1,0 +1,49 @@
+[0.851s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/pal_navigation_cfg_public/pal_navigation_cfg_params -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params
+[4.574s] -- The C compiler identification is GNU 11.4.0
+[4.576s] -- The CXX compiler identification is GNU 11.4.0
+[4.577s] -- Detecting C compiler ABI info
+[4.577s] -- Detecting C compiler ABI info - done
+[4.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.578s] -- Detecting C compile features
+[4.579s] -- Detecting C compile features - done
+[4.580s] -- Detecting CXX compiler ABI info
+[4.580s] -- Detecting CXX compiler ABI info - done
+[4.580s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.580s] -- Detecting CXX compile features
+[4.580s] -- Detecting CXX compile features - done
+[4.581s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[4.584s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.585s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.585s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.587s] -- Added test 'lint_cmake' to check CMake code style
+[4.587s] -- Added test 'xmllint' to check XML markup files
+[4.587s] -- Configuring done
+[4.587s] -- Generating done
+[4.587s] -- Build files have been written to: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params
+[4.599s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/pal_navigation_cfg_public/pal_navigation_cfg_params -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params
+[4.600s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params -- -j12 -l12
+[4.792s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params -- -j12 -l12
+[4.972s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params
+[5.016s] -- Install configuration: ""
+[5.018s] -- Execute custom install script
+[5.020s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/omni_base_nav2.yaml
+[5.072s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/pmb2_nav2.yaml
+[5.124s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/tiago_dual_nav2.yaml
+[5.177s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/tiago_nav2.yaml
+[5.230s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/ament_index/resource_index/package_run_dependencies/pal_navigation_cfg_params
+[5.286s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/ament_index/resource_index/parent_prefix_path/pal_navigation_cfg_params
+[5.338s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/ament_prefix_path.sh
+[5.396s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/ament_prefix_path.dsv
+[5.449s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/path.sh
+[5.501s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/path.dsv
+[5.551s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.bash
+[5.602s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.sh
+[5.650s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.zsh
+[5.698s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.dsv
+[5.755s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/package.dsv
+[5.805s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/ament_index/resource_index/packages/pal_navigation_cfg_params
+[5.854s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/cmake/pal_navigation_cfg_paramsConfig.cmake
+[5.909s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/cmake/pal_navigation_cfg_paramsConfig-version.cmake
+[5.960s] -- Symlinking: /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/package.xml
+[6.019s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tharusha/robotics/install/launch_param_builder:/home/tharusha/robotics/install/broadcaster_listener:/home/tharusha/lab05/install/moveit_configs_utils:/home/tharusha/lab05/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/pal_navigation_cfg_params

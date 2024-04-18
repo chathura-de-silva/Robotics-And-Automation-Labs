@@ -1,0 +1,34 @@
+[2.659s] Invoking command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal': PYTHONPATH=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/prefix_override:/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/build --no-deps symlink_data
+[4.831s] running develop
+[4.831s] running egg_info
+[4.832s] creating launch_pal.egg-info
+[4.832s] writing launch_pal.egg-info/PKG-INFO
+[4.832s] writing dependency_links to launch_pal.egg-info/dependency_links.txt
+[4.832s] writing entry points to launch_pal.egg-info/entry_points.txt
+[4.832s] writing requirements to launch_pal.egg-info/requires.txt
+[4.833s] writing top-level names to launch_pal.egg-info/top_level.txt
+[4.834s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[4.834s] reading manifest file 'launch_pal.egg-info/SOURCES.txt'
+[4.834s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[4.834s] running build_ext
+[4.834s] Creating /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch-pal.egg-link (link to .)
+[4.834s] 
+[4.836s] Installed /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal
+[4.836s] running symlink_data
+[4.836s] creating /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/ament_index
+[4.836s] creating /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/ament_index/resource_index
+[4.836s] creating /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/ament_index/resource_index/packages
+[4.837s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/resource/launch_pal -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/ament_index/resource_index/packages
+[4.837s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/package.xml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal
+[4.837s] creating /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.837s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/tiago_sea_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.837s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/tiago_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.837s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/pmb2_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.837s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/omni_base_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.838s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/robot_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.838s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/ari_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.838s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/tiago_dual_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.838s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/pmb3_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.838s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/tiago_sea_dual_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.838s] symbolically linking /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/config/tiago_pro_configuration.yaml -> /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/share/launch_pal/config
+[4.844s] Invoked command in '/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal' returned '0': PYTHONPATH=/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/prefix_override:/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/launch_pal/build --no-deps symlink_data

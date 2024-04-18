@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/play_motion2/libplay_motion2.so" "/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/build/play_motion2/librrbot_system.so" "TARGETS" "play_motion2" "rrbot_system" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

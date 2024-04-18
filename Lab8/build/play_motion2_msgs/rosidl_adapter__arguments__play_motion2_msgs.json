@@ -1,0 +1,8 @@
+{
+  "package_name": "play_motion2_msgs",
+  "non_idl_tuples": [
+    "/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/play_motion2/play_motion2_msgs:action/PlayMotion2.action",
+    "/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/IsMotionReady.srv",
+    "/home/tharusha/Documents/Robotics/lab08/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/ListMotions.srv"
+  ]
+}
